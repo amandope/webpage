@@ -1,3 +1,45 @@
-body{
-  background: #B8A5FF;
-}
+/* CSS HEX */
+:root {
+
+  --tea-green: #c2f9bbff;
+  --powder-blue: #9ad1d4ff;
+  --emerald: #62c370ff;
+  --dogwood-rose: #cc3363ff;
+  --russian-violet: #20063bff;
+  }
+  body{
+   margin: 0;
+   padding: 0;
+  }
+  div {
+    width: 100vw;
+    height: 25vh;
+  }
+  button {
+    position: fixed;
+  }
+  .big-red-button {
+    top: 20vh;
+    right: 20vw;
+    
+    background-color: var(--dogwood-rose);
+    font-size: 10em;
+    padding: 1em;
+    border: 0;
+    color: white;
+  }
+  #x1 {
+    background-color: var(--tea-green);
+  }
+  
+  #x2 {
+    background-color: var(--powder-blue);
+  }
+  
+  #x3 {
+    background-color: var(--emerald);
+  }
+  
+  #x4 {
+    background-color: var(--russian-violet);
+  }
