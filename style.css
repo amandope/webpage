@@ -1,0 +1,21 @@
+body{
+    font-size: 15pt;
+    background-color: #eee;
+}
+ul,ol{
+  background:#B2F5DB;
+  color:#18362A;
+  border: 2px solid #C1BC81;
+  border-radius: 9px;
+  padding: 1.1em;
+  margin-top: 5em;
+}
+ul:hover, ol:hover{
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+button{
+  background-color:#62FF00;
+  border: 2px solid #C1BC81;
+  padding: 0.5em;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
